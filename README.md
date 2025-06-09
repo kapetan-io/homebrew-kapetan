@@ -18,7 +18,7 @@ brew install querator
 
 ## Available Formulas
 
-- **querator**: Distributed Durable Execution System built on an Almost Exactly Once Delivery Queue
+- **querator**: An Almost Exactly Once Delivery Queue
 
 ## Development
 
