@@ -9,11 +9,10 @@ class Querator < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w -X main.Version=#{version}"), "./cmd/querator"
+    system "go", "build", *std_go_args(ldflags: "-s -w -X github.com/kapetan-io/querator.Version=#{version}"), "./cmd/querator"
   end
 
   test do
-    # Test that the binary was installed and can show version
-    assert_match version.to_s, shell_output("#{bin}/querator --version")
+    assert_match version.to_s, shell_output("#{bin}/querator version")
   end
 end
