@@ -1,8 +1,8 @@
 class Querator < Formula
   desc "An Almost Exactly Once Delivery Queue"
   homepage "https://github.com/kapetan-io/querator"
-  url "https://github.com/kapetan-io/querator/archive/v0.0.4.tar.gz"
-  sha256 "a4d5884b67243a709cbd7726f7ccad89e850ba013fa52fc21f28389c00ad1b98"
+  url "https://github.com/kapetan-io/querator/archive/v0.0.8.tar.gz"
+  sha256 "c34ce1e7da057daacb45ccbf784ad42e045af80da6b7b60462fcad2d2c3a7c32"
   license "Apache-2.0"
   head "https://github.com/kapetan-io/querator.git", branch: "main"
 
